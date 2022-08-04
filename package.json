@@ -1,0 +1,15 @@
+{
+  "name": "submit-fallback",
+  "version": "0.0.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "start": "npx sandbox"
+  },
+  "devDependencies": {
+    "@architect/architect": "^10.3.4"
+  },
+  "dependencies": {
+    "@architect/functions": "^5.2.1",
+    "tiny-json-http": "^7.4.2"
+  }
+}

@@ -15,7 +15,7 @@ async function http (req) {
     <body>
         <h1>Cats</h1>
         <form method="POST" action="/cats">
-            <button is="el-submit" eventname="new-cat">Random Cat Picture</button>
+            <el-submit eventname="new-cat"><button>Random Cat Picture</button></el-submit>
         </form>
         <ul>
           ${cats.map(cat => `<li><img src="${cat.url}" width="300"/></li>`).join('')}

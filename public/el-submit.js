@@ -1,4 +1,4 @@
-export default class ElSubmit extends HTMLButtonElement {
+export default class ElSubmit extends HTMLElement {
   constructor () {
     super()
     this.eventname = this.attributes.eventname.value || 'new-data'
@@ -29,4 +29,4 @@ export default class ElSubmit extends HTMLButtonElement {
     }
   }
 }
-customElements.define('el-submit', ElSubmit, { extends: 'button' })
+customElements.define('el-submit', ElSubmit)
